@@ -1,0 +1,111 @@
+div.shop {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  a.kol {
+    width: 100%;
+    height: 110px;
+    background-color: rgb(23, 104, 15);
+    border-radius: 7px;
+    border-radius: 7px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    div.mainshop {
+      width: 100%;
+      height: 110px;
+      background-color: #ecefee;
+      border-radius: 7px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-around;
+      align-items: center;
+      div.shop-1 {
+        width: 470px;
+        height: 70px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        div.chap {
+          width: 100px;
+          height: 26px;
+          background-color: hsl(148, 97%, 31%);
+          box-sizing: border-box;
+          padding-top: 3px;
+          border-radius: 30px;
+          color: white;
+          text-align: center;
+        }
+      }
+      div.shop-2 {
+        width: 635px;
+        height: 70px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        div.yek {
+          width: 492px;
+          height: 74px;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          align-items: center;
+          padding-left: 5px;
+          img {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            box-sizing: border-box;
+            border-radius: 50%;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: end;
+            align-items: center;
+            position: relative;
+          }
+          span.takhfif {
+            text-align: center;
+            width: 30px;
+            height: 15px;
+            background-color: rgb(192, 11, 11);
+            color: white;
+            position: absolute;
+            margin-top: 50px;
+            border-radius: 40px;
+          }
+        }
+        div.do {
+          width: 1002px;
+          height: 40px;
+          background-color: white;
+          border-radius: 40px;
+          box-sizing: border-box;
+          text-align: start;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          align-items: center;
+          div.matn-2 {
+            color: hsl(148, 97%, 31%);
+            font-size: small;
+            text-align: center;
+            svg {
+              width: 30px;
+              height: 20px;
+              fill: hsl(148, 97%, 31%);
+              font-size: small;
+              text-align: center;
+              align-self: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

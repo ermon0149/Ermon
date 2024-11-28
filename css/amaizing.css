@@ -1,0 +1,115 @@
+div.amaizing {
+  width: 100%;
+  height: 295px;
+  background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+  margin-bottom: 100ox;
+  padding: 25px 5px;
+  box-sizing: border-box;
+  border-radius: 17px;
+  a.see {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+  }
+}
+.sub-amaizing {
+  background-color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.coolamaizing {
+  font-size: 12px;
+  div.ax {
+    width: 100%;
+    height: 50%;
+    img {
+      width: 90%;
+      height: inherit;
+      object-fit: cover;
+      padding-right: 7px;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  a.gool {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+    box-sizing: border-box;
+  }
+}
+div.description {
+  width: 100%;
+  font-size: 12px;
+  overflow: hidden;
+  padding-bottom: 5px;
+}
+div.loot {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  direction: ltr;
+  div.newloot {
+    width: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    direction: ltr;
+    gap: 5px;
+  }
+}
+span.disloot {
+  width: 35px;
+  height: 15px;
+  background-color: #d22c4e;
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: aliceblue;
+}
+div.oldloot {
+  text-decoration: line-through;
+  color: rgb(187, 187, 187);
+}
+a.end {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  div.cycle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: cyan;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    svg{
+      width: inherit;
+      height: inherit;
+      fill: cyan;
+      padding: 18px;
+      padding-top: 52px;
+    }
+  }
+  div.pop {
+    color: rgb(73, 73, 73);
+    font-size: 15px;
+  }
+}
+div.wood {
+  border-radius: 0px 10px 10px 0px;
+}
+div.soop {
+  border-radius: 10px 0px 0px 10px;
+}

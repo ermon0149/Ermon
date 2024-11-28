@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+    font-family: font;
+    src: url(../fonts/IRANYekanWeb-Medium.eot);
+    src: url(../fonts/IRANYekanWeb-Medium.ttf);
+    src: url(../fonts/IRANYekanWeb-Medium.woff);
+    src: url(../fonts/IRANYekanWeb-Medium.woff2);
+}
+div{
+    font-size: 16px;
+    font-family: font;
+}
+div>input{
+    font-size: 16px;
+    font-family: font;
+}
+div.parent {
+  width: 500px;
+  height: 600px;
+  margin: 50vh auto;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid rgb(160, 160, 160);
+}
+div>div.baby{
+    width: 55px;
+    height: 155px;
+    text-align: center;
+    margin: 50px 160px 0px 180px;
+}
+div>div>h2.sub{
+    text-align: center;
+    color: black;
+    text-align: right;
+    margin: 20px 27px 20px 10px;
+    font-weight: bold;
+}
+div>div>h4.sub-2{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    margin: 20px 27px 20px 10px;
+    font-weight: bold;
+}
+div>div>h4.sub-3{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    margin: 20px 27px 20px 10px;
+    font-weight: bold;
+}
+div>form>div.baby-3>input{
+    width: 450px;
+    height: 45px;
+    background-color: rgb(228, 228, 228);
+    margin: 20px 25px 30px 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="text"]:focus{
+    outline: 1px solid aqua;
+}
+div>form>div.baby-4>input{
+    width: 450px;
+    height: 45px;
+    color: aliceblue;
+    font-size: x-large;
+    background-color: crimson;
+    margin: 10px 25px 10px 40px;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    box-sizing: border-box;
+}
+div>div>h5.sub-3{
+    text-align: center;
+    color: rgb(128, 128, 128);
+    text-align: right;
+    margin: 20px 27px 10px 10px;
+}

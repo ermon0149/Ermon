@@ -1,0 +1,55 @@
+div.mainreading {
+  width: 100%;
+  height: 390px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+  div.khandani {
+    width: inherit;
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    div.invar {
+      width: 85%;
+      height: inherit;
+      font-size: 18px;
+      font-weight: 400;
+      padding-bottom: 10px;
+      padding-right: 30px;
+    }
+    div.onvar {
+      width: 15%;
+      height: inherit;
+      color: cyan;
+      font-size: 12px;
+      font-weight: 400;
+      cursor: pointer;
+    }
+  }
+  div.foto{
+    width: inherit;
+    height: 60%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+    div.bekhoon{
+        width: 325px;
+        height: 100%;
+        border-radius: 15px;
+        font-size: 12px;
+        font-weight: 300;
+        img{
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    }
+  }
+}
